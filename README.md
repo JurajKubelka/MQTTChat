@@ -23,3 +23,9 @@ To play with it, you can connect to the [IoT Eclipse server](http://iot.eclipse.
 ```
 MQTTChat exampleAliceAndPedroIoTEclipse
 ```
+
+You can use a local server, using the following example:
+
+```
+MQTTChat exampleAliceAndPedroLocal
+```
