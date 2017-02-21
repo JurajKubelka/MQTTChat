@@ -13,7 +13,10 @@ The code is hosted on [SmalltalkHub](http://smalltalkhub.com/#!/~JurajKubelka/MQ
 Evaluate the following code in Playground:
 
 ```
-Gofer it 	smalltalkhubUser: 'JurajKubelka' project: 'MQTTChat';	configuration;	loadStable.
+Gofer it
+	smalltalkhubUser: 'JurajKubelka' project: 'MQTTChat';
+	configuration;
+	loadStable.
 ```
 
 ### Example
