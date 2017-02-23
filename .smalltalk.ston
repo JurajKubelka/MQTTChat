@@ -1,14 +1,13 @@
 SmalltalkCISpec {
   #loading : [
     SCIMetacelloLoadSpec {
-      #configuration : 'MQTTChat',
-      #repository : 'http://smalltalkhub.com/mc/JurajKubelka/MQTTChat/main',
+      #baseline : 'MQTTChat',
+      #directory : 'repository',
       #load : [ 'default' ],
-      #platforms : [ #pharo ],
-      #version: #stable
+      #platforms : [ #pharo ]
     }
   ],
   #testing : {
-   #categories: [ 'MQTT-Chat-*', 'MQTT-ChatUI-*', 'MQTT-Async-Client-*' ]
+   #categories: [ 'MQTT-Chat-*', 'MQTT-ChatUI-*' ]
     }
 }
