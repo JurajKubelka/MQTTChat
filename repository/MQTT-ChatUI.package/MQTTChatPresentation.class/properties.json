@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MQTTChatAbstractPresentation",
+	"category" : "MQTT-ChatUI-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MQTTChatPresentation",
+	"type" : "normal"
+}

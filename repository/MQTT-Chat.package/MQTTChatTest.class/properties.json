@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "MQTT-Chat-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"alice",
+		"pedro",
+		"results",
+		"semaphore",
+		"prefix",
+		"announcementBlock"
+	],
+	"name" : "MQTTChatTest",
+	"type" : "normal"
+}

@@ -1,0 +1,1 @@
+A MQTTChatTimestampTest is a test class for testing the behavior of MQTTChatTimestamp

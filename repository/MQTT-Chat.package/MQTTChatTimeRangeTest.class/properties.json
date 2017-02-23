@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "MQTT-Chat-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"after",
+		"timeRange"
+	],
+	"name" : "MQTTChatTimeRangeTest",
+	"type" : "normal"
+}

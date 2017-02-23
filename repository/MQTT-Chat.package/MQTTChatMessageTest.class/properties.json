@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JurajKubelka 2/22/2017 14:18",
+	"super" : "TestCase",
+	"category" : "MQTT-Chat-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MQTTChatMessageTest",
+	"type" : "normal"
+}

@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MQTTChatOrderedCollection",
+	"category" : "MQTT-Chat-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MQTTChatSortedCollection",
+	"type" : "normal"
+}

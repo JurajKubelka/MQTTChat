@@ -1,0 +1,1 @@
+A MQTTSTONTest is a test class for testing the serialization and materialization behavior.

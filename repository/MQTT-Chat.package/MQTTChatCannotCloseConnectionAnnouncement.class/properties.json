@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "MQTTChatAnnouncement",
+	"category" : "MQTT-Chat-Announcements",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"exception"
+	],
+	"name" : "MQTTChatCannotCloseConnectionAnnouncement",
+	"type" : "normal"
+}

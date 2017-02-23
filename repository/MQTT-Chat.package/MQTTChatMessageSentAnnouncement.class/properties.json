@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "MQTTChatAnnouncement",
+	"category" : "MQTT-Chat-Announcements",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"message",
+		"room"
+	],
+	"name" : "MQTTChatMessageSentAnnouncement",
+	"type" : "normal"
+}

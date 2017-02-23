@@ -1,0 +1,3 @@
+accessing
+shortTextLimit
+	^ 30

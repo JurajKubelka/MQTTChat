@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "TestCase",
+	"category" : "MQTT-Chat-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"rooms",
+		"roomOne",
+		"roomOneCopy",
+		"roomTwo",
+		"result"
+	],
+	"name" : "MQTTChatOrderedCollectionTest",
+	"type" : "normal"
+}

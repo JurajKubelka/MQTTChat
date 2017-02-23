@@ -1,0 +1,3 @@
+accessing
+request
+	^ self contents 

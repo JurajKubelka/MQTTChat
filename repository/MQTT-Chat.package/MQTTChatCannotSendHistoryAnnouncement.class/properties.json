@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "MQTTChatAnnouncement",
+	"category" : "MQTT-Chat-Announcements",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"room",
+		"timeRange",
+		"exception"
+	],
+	"name" : "MQTTChatCannotSendHistoryAnnouncement",
+	"type" : "normal"
+}

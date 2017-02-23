@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MQTTChatMessage",
+	"category" : "MQTT-Chat-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MQTTChatRequest",
+	"type" : "normal"
+}

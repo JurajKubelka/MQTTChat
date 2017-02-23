@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "MQTT-Chat-Client",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mqttClient",
+		"announcer",
+		"user",
+		"rooms",
+		"prefix",
+		"alreadyListening",
+		"disconnected"
+	],
+	"name" : "MQTTChat",
+	"type" : "normal"
+}

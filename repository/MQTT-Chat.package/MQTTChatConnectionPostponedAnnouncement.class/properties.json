@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "MQTTChatAnnouncement",
+	"category" : "MQTT-Chat-Announcements",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"duration",
+		"time",
+		"command"
+	],
+	"name" : "MQTTChatConnectionPostponedAnnouncement",
+	"type" : "normal"
+}

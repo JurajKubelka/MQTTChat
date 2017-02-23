@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JurajKubelka 2/23/2017 16:59",
+	"super" : "GLMCompositePresentation",
+	"category" : "MQTT-ChatUI-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MQTTChatAbstractPresentation",
+	"type" : "normal"
+}
