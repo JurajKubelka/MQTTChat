@@ -1,3 +1,3 @@
 accessing
 mqttClient
-	^ mqttClient ifNil: [ mqttClient := MQTTAsyncClient new ]
+	^ mqttClient ifNil: [ mqttClient := MQTTCallbackClient new ]
