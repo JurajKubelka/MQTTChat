@@ -1,4 +1,5 @@
 running
 setUp
 	super setUp.
-	room := MQTTChatRoom new id: self roomOneId; yourself
+	results := OrderedCollection new.
+	room := MQTTChatRoom new id: self roomOneId; chat: self; yourself

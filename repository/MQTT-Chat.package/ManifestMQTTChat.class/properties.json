@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "<historical>",
 	"super" : "PackageManifest",
-	"category" : "MQTT-Chat-Manifest",
+	"category" : "MQTT-Chat",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

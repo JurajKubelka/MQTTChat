@@ -6,7 +6,9 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"room"
+		"room",
+		"user",
+		"results"
 	],
 	"name" : "MQTTChatRoomTest",
 	"type" : "normal"

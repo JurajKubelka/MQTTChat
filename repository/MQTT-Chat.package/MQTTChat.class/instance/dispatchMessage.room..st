@@ -1,5 +1,7 @@
 network - dispatching
 dispatchMessage: aMQTTChatMessage room: aMQTTChatRoom 
-	aMQTTChatRoom receiveMessage: aMQTTChatMessage.
+	| message |
+	message := aMQTTChatRoom receiveMessage: aMQTTChatMessage.
+	aMQTTChatMessage == message ifFalse: [ ^ self ].
 	self announcer announce: (
-		MQTTChatMessageReceivedAnnouncement new message: aMQTTChatMessage; room: aMQTTChatRoom; yourself)
+		MQTTChatMessageReceivedAnnouncement new message: message; room: aMQTTChatRoom; yourself)
