@@ -45,4 +45,4 @@ MQTTChat exampleBobLocal.
 
 The UI is very simple. If you close a window, the chat client is automatically disconnected from the server. The client is automatically reconnected on a network failure. You can open `Transcript` in order to see log of network activities.
 
-![Chats of Alice and Pedro](asserts/img/chat.png)
+![Chats of Alice and Pedro](assets/img/chat.png)
