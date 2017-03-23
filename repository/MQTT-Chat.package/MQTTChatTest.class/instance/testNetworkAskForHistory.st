@@ -1,8 +1,8 @@
 tests
 testNetworkAskForHistory
-	| room message pedroRoom |
+	| message pedroRoom |
 	alice connect; listen.
-	room := alice roomId: self roomOneId.
+	alice roomId: self roomOneId.
 	alice announcer when: MQTTChatMessageSentAnnouncement do: announcementBlock.
 	message := alice sendTextMessage: self textMessageOne toRoomId: self roomOneId.
 	self assertSemaphore: 1.

@@ -1,0 +1,1 @@
+I am raised if someone wants to register new room with the same id as an existing one of different type.

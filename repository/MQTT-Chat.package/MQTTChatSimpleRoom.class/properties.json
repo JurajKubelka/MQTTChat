@@ -1,11 +1,16 @@
 {
 	"commentStamp" : "",
-	"super" : "MQTTChatSimpleRoom",
+	"super" : "Object",
 	"category" : "MQTT-Chat-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "MQTTChatRoom",
+	"instvars" : [
+		"id",
+		"messages",
+		"chat",
+		"announcer"
+	],
+	"name" : "MQTTChatSimpleRoom",
 	"type" : "normal"
 }

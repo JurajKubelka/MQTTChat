@@ -1,3 +1,3 @@
 tests
 testLessOrEqual
-	self assert: room <= (MQTTChatRoom new id: self roomTwoId; yourself)
+	self assert: room <= (self newRoom id: self roomTwoId; yourself)

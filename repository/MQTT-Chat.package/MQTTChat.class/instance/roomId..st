@@ -1,3 +1,6 @@
 public
-roomId: aString 
-	^ self room: (MQTTChatRoom new id: aString; chat: self; yourself)
+roomId: aString
+	^ self room: (self newRoom
+			id: aString;
+			chat: self;
+			yourself)

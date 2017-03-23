@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "JurajKubelka 3/23/2017 17:03",
+	"super" : "Error",
+	"category" : "MQTT-Chat-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"existing",
+		"requested"
+	],
+	"name" : "MQTTChatInconsistentRooms",
+	"type" : "normal"
+}

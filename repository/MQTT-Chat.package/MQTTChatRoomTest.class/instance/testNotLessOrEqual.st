@@ -1,3 +1,3 @@
 tests
 testNotLessOrEqual
-	self deny: (MQTTChatRoom new id: self roomTwoId; yourself) <= room
+	self deny: (self newRoom id: self roomTwoId; yourself) <= room

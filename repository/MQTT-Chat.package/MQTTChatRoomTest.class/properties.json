@@ -1,15 +1,11 @@
 {
 	"commentStamp" : "<historical>",
-	"super" : "TestCase",
+	"super" : "MQTTChatSimpleRoomTest",
 	"category" : "MQTT-Chat-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [
-		"room",
-		"user",
-		"results"
-	],
+	"instvars" : [ ],
 	"name" : "MQTTChatRoomTest",
 	"type" : "normal"
 }
