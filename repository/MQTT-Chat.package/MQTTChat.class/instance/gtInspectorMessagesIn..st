@@ -9,6 +9,6 @@ gtInspectorMessagesIn: composite
 		updateOn: MQTTChatMessageReceivedAnnouncement from: [ :chat | chat announcer ];
 		updateOn: MQTTChatHistoryReceivedAnnouncement from: [ :chat | chat announcer ];
 		column: 'Id' evaluated: [ :room | room id ] width: 50;
-		column: '# Messages' evaluated: [ :room | room size ] width: 70;
-		column: 'Last At' evaluated: [ :room | room latest ifNotNil: #datetime ifNil: '' ] width: 50;
+		column: '# Messages' evaluated: [ :room | room messages size ] width: 70;
+		column: 'Last At' evaluated: [ :room | room latestDateAndTime ] width: 50;
 		yourself

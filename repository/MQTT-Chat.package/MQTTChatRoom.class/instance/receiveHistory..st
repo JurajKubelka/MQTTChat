@@ -1,6 +1,9 @@
 receiving
 receiveHistory: aMQTTChatHistory 
+	| announcement |
 	aMQTTChatHistory messages do: [ :eachMessage | 
 		self messages add: eachMessage ].
-	self announcer announce: (
-		MQTTChatHistoryReceivedAnnouncement new history: aMQTTChatHistory; room: self; yourself)
+	announcement := MQTTChatHistoryReceivedAnnouncement new 
+		history: aMQTTChatHistory; room: self; yourself.
+	self announce: announcement.
+	self announceInChar: announcement.

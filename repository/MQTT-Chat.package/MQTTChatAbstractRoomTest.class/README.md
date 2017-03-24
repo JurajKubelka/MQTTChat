@@ -1,0 +1,1 @@
+A MQTTChatAbstractRoomTest is a test class for sharing test cases of rooms

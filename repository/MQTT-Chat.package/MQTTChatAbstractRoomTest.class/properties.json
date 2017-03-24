@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "JurajKubelka 3/24/2017 12:11",
+	"super" : "TestCase",
+	"category" : "MQTT-Chat-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"room",
+		"user",
+		"results"
+	],
+	"name" : "MQTTChatAbstractRoomTest",
+	"type" : "normal"
+}

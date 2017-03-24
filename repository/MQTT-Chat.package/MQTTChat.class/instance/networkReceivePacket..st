@@ -1,7 +1,7 @@
 network
 networkReceivePacket: mqttPacket
-	| message room |
-	message := MQTTChatEncoderDecoder fromByteArray: mqttPacket contents.
+	| room |
 	room := self roomFromTopic: mqttPacket topic.
+	room ifNil: [ ^ self log: 'Unknown packet received in ', mqttPacket topic ].
 	self log: 'Packet received in ', mqttPacket topic.
-	self dispatch: message inRoom: room.
+	room dispatch: mqttPacket.

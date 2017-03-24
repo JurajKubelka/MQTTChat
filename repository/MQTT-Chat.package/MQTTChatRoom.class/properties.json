@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "MQTTChatSimpleRoom",
+	"super" : "MQTTChatAbstractRoom",
 	"category" : "MQTT-Chat-Core",
 	"classinstvars" : [ ],
 	"pools" : [ ],

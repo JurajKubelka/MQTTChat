@@ -1,0 +1,1 @@
+A MQTTChatRoomCompatibilityTest is a test class for testing the behavior of MQTTChatRoom and MQTTChatSimpleRoom
