@@ -1,3 +1,3 @@
 accessing
 username
-	^ self author ifNotNil: #username
+	^ self author ifNotNil: #name

@@ -1,6 +1,6 @@
 instance creation
 newAuthor
 	^ MQTTChatUser new
-		username: self usernameOne;
+		name: self usernameOne;
 		id: self idOne;
 		yourself

@@ -6,8 +6,8 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"username",
-		"id"
+		"id",
+		"name"
 	],
 	"name" : "MQTTChatUser",
 	"type" : "normal"
