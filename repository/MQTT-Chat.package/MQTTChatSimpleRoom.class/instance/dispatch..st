@@ -7,5 +7,5 @@ dispatch: aMQTTPublish
 		announcement := (MQTTChatMessageReceivedAnnouncement new 
 				message: bytes; room: self; yourself).
 		self announce: announcement.
-		self announceInChar: announcement ].
+		self announceInChat: announcement ].
 	^ bytes

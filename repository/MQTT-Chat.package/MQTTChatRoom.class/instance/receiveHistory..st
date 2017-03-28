@@ -6,4 +6,4 @@ receiveHistory: aMQTTChatHistory
 	announcement := MQTTChatHistoryReceivedAnnouncement new 
 		history: aMQTTChatHistory; room: self; yourself.
 	self announce: announcement.
-	self announceInChar: announcement.
+	self announceInChat: announcement.
