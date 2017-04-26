@@ -1,3 +1,3 @@
 tests
 testSameHash
-	self assert: self newAuthor hash equals: self newAuthor hash
+	self assert: self newAuthorOne hash equals: self newAuthorOne hash

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "<historical>",
+	"super" : "MQTTChatTestCase",
+	"category" : "MQTT-Chat-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"messages"
+	],
+	"name" : "MQTTChatMessageIdsTest",
+	"type" : "normal"
+}

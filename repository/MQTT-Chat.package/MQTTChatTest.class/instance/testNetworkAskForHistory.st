@@ -4,7 +4,7 @@ testNetworkAskForHistory
 	alice connect; listen.
 	alice roomId: self roomOneId.
 	alice announcer when: MQTTChatMessageSentAnnouncement do: announcementBlock.
-	message := alice sendTextMessage: self textMessageOne toRoomId: self roomOneId.
+	message := alice sendTextMessage: self messageStringOne toRoomId: self roomOneId.
 	self assertSemaphore: 1.
 	pedro announcer when: MQTTChatHistoryReceivedAnnouncement do: announcementBlock.
 	pedro connect; listen.

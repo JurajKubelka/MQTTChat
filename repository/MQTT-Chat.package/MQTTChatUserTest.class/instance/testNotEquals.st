@@ -1,3 +1,3 @@
 tests
 testNotEquals
-	self deny: self newAuthor = ((self newAuthor) name: self usernameTwo; yourself)
+	self deny: self newAuthorOne = ((self newAuthorOne) name: self usernameStringTwo; yourself)

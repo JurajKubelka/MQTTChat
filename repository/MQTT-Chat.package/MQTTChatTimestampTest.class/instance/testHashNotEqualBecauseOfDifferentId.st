@@ -1,3 +1,3 @@
 tests
 testHashNotEqualBecauseOfDifferentId
-	self deny: self timestampOne hash = self timestampTwo hash.
+	self deny: self newTimestampOneOne hash = self newTimestampTwoOne hash.

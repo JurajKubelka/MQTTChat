@@ -1,3 +1,3 @@
 tests
 testNotLessOrEqual4
-	self deny: self timestampFour <= self timestampOne.
+	self deny: self timestampFour <= self newTimestampOneOne.

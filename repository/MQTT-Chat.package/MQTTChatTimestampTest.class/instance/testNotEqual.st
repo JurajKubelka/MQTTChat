@@ -1,3 +1,3 @@
 tests
 testNotEqual
-	self deny: self timestampOne = self timestampFour.
+	self deny: self newTimestampOneOne = self timestampFour.

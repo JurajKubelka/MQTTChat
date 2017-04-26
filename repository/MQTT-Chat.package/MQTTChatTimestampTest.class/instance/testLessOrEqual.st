@@ -1,3 +1,3 @@
 tests
 testLessOrEqual
-	self assert: self timestampOne <= self timestampOne.
+	self assert: self newTimestampOneOne <= self newTimestampOneOne.

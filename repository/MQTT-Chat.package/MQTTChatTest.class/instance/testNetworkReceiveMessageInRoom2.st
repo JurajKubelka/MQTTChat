@@ -8,11 +8,11 @@ testNetworkReceiveMessageInRoom2
 		when: MQTTChatMessageSentAnnouncement, MQTTChatMessageReceivedAnnouncement do: announcementBlock.
 	alice announcer 
 		when: MQTTChatMessageSentAnnouncement, MQTTChatMessageReceivedAnnouncement do: announcementBlock.
-	aliceMessage := alice sendTextMessage: self textMessageOne toRoomId: self roomOneId.
+	aliceMessage := alice sendTextMessage: self messageStringOne toRoomId: self roomOneId.
 	self assertSemaphore: 2.
 	self assert: aliceRoom messages size equals: 1.
 	self assert: aliceRoom messages first == aliceMessage.
-	self assert: aliceRoom messages first text equals: self textMessageOne.
+	self assert: aliceRoom messages first text equals: self messageStringOne.
 	self assert: results size equals: 2.
 	self assert: results first class equals: MQTTChatMessageSentAnnouncement.
 	self assert: results second class equals: MQTTChatMessageSentAnnouncement.

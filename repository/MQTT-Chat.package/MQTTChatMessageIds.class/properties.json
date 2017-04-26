@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JurajKubelka 4/25/2017 16:43",
+	"super" : "Object",
+	"category" : "MQTT-Chat-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ids"
+	],
+	"name" : "MQTTChatMessageIds",
+	"type" : "normal"
+}

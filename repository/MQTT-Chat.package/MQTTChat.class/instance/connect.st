@@ -1,5 +1,7 @@
 initialize-release
 connect
+	"It sets reconnection command and then connect the client.
+	On any connection lost, it will try to reconnect."
 	self mqttClient 
 		reopen: [ 
 			self announce: MQTTChatConnectedAnnouncement ] 

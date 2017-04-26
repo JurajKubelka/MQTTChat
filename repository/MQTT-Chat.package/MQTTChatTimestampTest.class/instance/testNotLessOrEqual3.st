@@ -1,3 +1,3 @@
 tests
 testNotLessOrEqual3
-	self deny: self timestampThree <= self timestampOne.
+	self deny: self timestampThree <= self newTimestampOneOne.

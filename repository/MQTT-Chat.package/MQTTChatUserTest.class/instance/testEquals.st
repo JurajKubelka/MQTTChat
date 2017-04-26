@@ -1,3 +1,3 @@
 tests
 testEquals
-	self assert: self newAuthor equals: self newAuthor
+	self assert: self newAuthorOne equals: self newAuthorOne

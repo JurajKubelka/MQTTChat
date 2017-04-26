@@ -1,3 +1,3 @@
 tests
 testHashNotEqualBecauseOfDifferentTime
-	self deny: self timestampOne hash = self timestampThree hash.
+	self deny: self newTimestampOneOne hash = self timestampThree hash.

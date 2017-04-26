@@ -1,4 +1,4 @@
 accessing
 messageTwo
 	^ MQTTChatMessage new
-		id: self timestampTwo
+		id: self newTimestampTwoOne

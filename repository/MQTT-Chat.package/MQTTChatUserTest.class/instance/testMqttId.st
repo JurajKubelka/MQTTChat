@@ -1,3 +1,3 @@
 tests
 testMqttId
-	self assert: self newAuthor mqttId isString
+	self assert: self newAuthorOne mqttId isString

@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "JurajKubelka 3/24/2017 12:11",
-	"super" : "TestCase",
+	"super" : "MQTTChatTestCase",
 	"category" : "MQTT-Chat-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],

@@ -5,4 +5,4 @@ testSendMessageContentsToRoomId
 	message := alice sendMessageContents: self newMessageContents toRoomId: self roomOneId.
 	self assert: room messages size equals: 1.
 	self assert: room messages first == message.
-	self assert: room messages first text equals: self textMessageOne.
+	self assert: room messages first text equals: self messageStringOne.

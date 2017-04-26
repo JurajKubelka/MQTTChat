@@ -1,3 +1,3 @@
 tests
 testPrintString2
-	self assert: self newAuthor printString isString
+	self assert: self newAuthorOne printString isString

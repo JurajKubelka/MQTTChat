@@ -1,3 +1,3 @@
 tests
 testNotEqualBecauseOfDifferentId
-	self deny: self timestampOne = self timestampTwo.
+	self deny: self newTimestampOneOne = self newTimestampTwoOne.
