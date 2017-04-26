@@ -1,3 +1,3 @@
-as yet unclassified
+instance creation
 newUser
 	^ MQTTChatUser new

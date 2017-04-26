@@ -1,5 +1,7 @@
 network - dispatching
-dispatch: aMQTTPublish 
-	| message |
-	message := MQTTChatEncoderDecoder fromByteArray: aMQTTPublish contents.
-	^ message dispatchBy: self.
+dispatch: mqttPacket 
+	[ | message |
+		message := MQTTChatEncoderDecoder fromByteArray: mqttPacket contents.
+		^ message dispatchBy: self
+	] on: STONReaderError do: [ :exception | 
+		self log: 'Received corrupted packet in ', mqttPacket topic ].
