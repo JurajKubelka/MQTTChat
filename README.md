@@ -1,6 +1,6 @@
 # MQTTChat
 
-[![Build Status](https://travis-ci.org/JurajKubelka/MQTTChat.svg?branch=master)](https://travis-ci.org/JurajKubelka/MQTTChat)
+[![Build Status](https://travis-ci.org/JurajKubelka/MQTTChat.svg?branch=master)](https://travis-ci.org/JurajKubelka/MQTTChat) [![Test Status](https://api.bob-bench.org/v1/badgeByUrl?branch=master&hosting=github&ci=travis-ci&repo=JurajKubelka%2FMQTTChat)](https://bob-bench.org/r/gh/JurajKubelka/MQTTChat)
 
 [![Build status](https://ci.appveyor.com/api/projects/status/dw9mqd0sagdr3gd3/branch/master?svg=true)](https://ci.appveyor.com/project/JurajKubelka/mqttchat/branch/master)
 

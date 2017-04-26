@@ -5,6 +5,9 @@ os:
   - linux
   - osx
 
+install:
+  - pip install --user benchupload
+
 smalltalk:
   - Pharo-6.0
 
@@ -15,3 +18,9 @@ before_install:
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install mosquitto ; fi
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew services start mosquitto ; fi
   - mosquitto_pub -h localhost -p 1883 -t abc -m 'checking mosquitto connection'
+
+# bob-bench xUnit file analysis
+after_success:
+  - benchupload --dir=$SMALLTALK_CI_BUILD
+after_failure:
+  - benchupload --dir=$SMALLTALK_CI_BUILD
