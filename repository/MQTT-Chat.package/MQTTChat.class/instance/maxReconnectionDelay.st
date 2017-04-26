@@ -1,0 +1,3 @@
+accessing
+maxReconnectionDelay
+	^ self mqttClient maxReconnectionDelay
